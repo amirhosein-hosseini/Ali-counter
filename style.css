@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap');
+body{
+    background: #fdd5ed;
+}
+
+section{
+    max-width: 1000px;
+    width: 90%;  
+    margin: 0 auto;
+}
+
+.header-title{
+    color: green;
+    text-align:center;
+    color:#471b10;
+    font-family: Poppins;
+    margin-bottom: 70px;
+}
+
+
+.recieve-wrapper{
+    background-color: #db89ba;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.recieve-price{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+input{
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #fdd5ed;
+    border: 0;
+}
+input::placeholder{
+    color: #471b10;
+}
+
+button{
+    border-radius: 4px;
+    background-color: #f14b01;
+    color: #471b10;
+    padding: 8px;
+    border: 0;
+    margin-left: 4px;
+}
+
+.pay-wrapper{
+    display: flex;
+    flex-direction: column;
+    background: #db89ba;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.pay-wrapper input{
+    margin-top: 20px;
+}
+
+.pay-header{
+    text-align: center;
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.okay-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.answer-pay{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.answer-item{
+    background: #db89ba;
+    color: #471b10;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 8px;
+}
+
+.answer-item h6{
+    display: inline-block;
+    font-size: 12px;
+}
+.answer-item p{
+    margin-top: -20px;
+}
+
+.answer-rec{
+    display: flex;
+    flex-direction: column;
+}
+
+.answer-rec-item{
+    background: #db89ba;
+    color: #471b10;
+    font-size:18px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    border-radius: 8px;
+    padding: 0 10px;
+    max-width: 100px;
+}
+
+.answer-rec-item h6{
+    text-align: center;
+}
+
+.final-wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background: #db89ba;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.final-wrapper h1{
+    text-align: center;
+    font-family: 'Noto Nastaliq Urdu', serif;
+}

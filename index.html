@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="header">
+        <h1 class="header-title">Ali Counter System</h1>
+    </section>    
+    <section id="recieve">
+        <h3 class="pay-header">مقدار دریافتی</h1>
+        <div class="recieve-wrapper">
+            <div class="recieve-price">
+                <input type="number" placeholder="مقدار دریافتی" id="input-price-rec">
+            </div>
+            <div class="recieve-data">
+                <input type="text" placeholder="تاریخ دریافت" id="input-date-rec">
+            </div>
+            <button type="button" id="recieve-price" onclick="priceRecOkay()" style="margin-top: 20px;font-size:14px;">okay</button>
+        </div>
+    </section>
+    <section id="pay">
+        <h3 class="pay-header">مقدار خرج شده</h1>
+        <div class="pay-wrapper">
+            <div class="pay-price">
+                <input type="number" placeholder="مقدار خرج شده" id="input-price-pay">
+            </div>
+            <div class="pay-date">
+                <input type="text" placeholder="تاریخ خرج" id="input-date-pay">
+            </div>
+            <div class="pay-desc">
+                <input type="text" placeholder="شرح" id="input-desc-pay">
+            </div>
+            <button type="button" onclick="pricePayOkay()" style="margin-top: 20px; font-size:14px;">okay</button>
+
+        </div>
+    </section>
+    <section id="okay">
+        <div class="okay-wrapper">
+            <button type="button" style="padding: 20px 50px;margin-top: 30px ;font-size: 18px;" onclick="doIt()">Lets Do it</button>
+        </div>
+    </section>
+    <section id="answer" style="margin-top: 50px;">
+        <h3 class="pay-header">لیست دخل و خرخ</h3>
+        <div class="answer-wrapper">
+            <div class="answer-pay" id="answer-pay">
+                <h4 class="pay-header">خرج</h4>
+            </div>
+            <div class="answer-rec" id="answer-rec">
+                <h4 class="pay-header">دریافتی</h4>
+            </div>
+        </div>
+    </section>
+    <section id="final">
+        <div class="final-wrapper" id="final-wrapper">
+            
+        </div>
+    </section>
+</body>
+</html>
